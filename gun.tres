@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Weapondata" format=3 uid="uid://dn5shfdxo8oo8"]
+
+[ext_resource type="Texture2D" uid="uid://bfb1n1nmx8va5" path="res://Tiles/tile_0039.png" id="1_kbs1i"]
+[ext_resource type="Script" uid="uid://pk2mya78rs4s" path="res://item/weapondata.gd" id="1_vju2p"]
+
+[resource]
+script = ExtResource("1_vju2p")
+weapon_type = 1
+damage = 15.0
+attack_speed = 0.3
+max_ammo = 30
+item_size = Vector2(40, 30)
+sprite_texture = ExtResource("1_kbs1i")
+item_id = "2"
+item_name = "gun"
+icon = ExtResource("1_kbs1i")
+description = "It's a normal gun"
+metadata/_custom_type_script = "uid://pk2mya78rs4s"

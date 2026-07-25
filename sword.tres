@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="Weapondata" format=3 uid="uid://birr1clqsfcxg"]
+
+[ext_resource type="Texture2D" uid="uid://bo0salwcd4d1s" path="res://Tiles/tile_0068.png" id="1_h1qax"]
+[ext_resource type="Script" uid="uid://pk2mya78rs4s" path="res://item/weapondata.gd" id="1_n41dw"]
+
+[resource]
+script = ExtResource("1_n41dw")
+sprite_texture = ExtResource("1_h1qax")
+item_id = "1"
+item_name = "Sword"
+icon = ExtResource("1_h1qax")
+description = "It's a normal sword"
+metadata/_custom_type_script = "uid://pk2mya78rs4s"
