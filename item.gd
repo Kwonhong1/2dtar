@@ -51,6 +51,7 @@ func _on_body_entered(body: Node2D) -> void:
 		
 		# TODO: 플레이어의 인벤토리 시스템에 아이템 데이터를 전달하는 로직
 		# 예시: body.add_item_to_inventory(item_data)
-		
+		if body.has_method("pick_up_item"):
+			body.pick_up_item(item_data)
 		# 획득 완료 후 바닥에서 아이템 삭제
 		queue_free()
