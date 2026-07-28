@@ -1,6 +1,8 @@
 class_name RoomData
 extends Resource
+enum RoomType { NORMAL, ITEM, MONSTER }
 
+@export var room_type: RoomType = RoomType.NORMAL
 @export var room_id: int = 1
 @export var room_name: String = "Room 1"
 @export var background_color: Color = Color.WHITE
